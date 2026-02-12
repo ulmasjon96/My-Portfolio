@@ -1,4 +1,4 @@
-import{j as m,i as sn,r as I,R as y,u as lt}from"./index-CmDC5yz-.js";import{S as Qn}from"./section-title-DSJCcXSy.js";const er="/My-Portfolio/assets/formBg-D9m73Ati.jpg";function st({label:e,name:t,type:n="text",placeholder:r}){return m.jsxs("div",{className:"relative w-full group my-10",children:[m.jsx("input",{type:n,name:t,required:!0,placeholder:r||e,className:`\r
+import{j as m,i as sn,r as I,R as y,u as lt}from"./index-DSexRWl0.js";import{S as Qn}from"./section-title-CjrFYsnq.js";const er="/My-Portfolio/assets/formBg-D9m73Ati.jpg";function st({label:e,name:t,type:n="text",placeholder:r}){return m.jsxs("div",{className:"relative w-full group my-10",children:[m.jsx("input",{type:n,name:t,required:!0,placeholder:r||e,className:`\r
         peer w-full h-[50px] px-5 pr-14\r
         rounded-md\r
         bg-[#000c24b3]\r
@@ -141,7 +141,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   [&_.PhoneInputInput]:focus:shadow-[0_0_25px_rgba(0,200,255,0.6),inset_0_0_12px_rgba(0,0,0,0.9)]\r
         placeholder:text-cyan-500/40\r
   [&_.PhoneInputInput::placeholder]:text-cyan-500/40\r
-`,children:[m.jsx(C0,{international:!0,placeholder:r||n,countrySelectProps:{className:"outline-none cursor-pointer"},value:e,onChange:a=>t(a||"")}),m.jsx("span",{className:`\r
+`,children:[m.jsx(C0,{international:!0,placeholder:r||n,countrySelectProps:{className:" cursor-pointer"},value:e,onChange:a=>t(a||"")}),m.jsx("span",{className:`\r
         absolute -top-6 left-0\r
         text-xs tracking-[2px] uppercase\r
         text-cyan-400/70\r
