@@ -1,0 +1,1 @@
+.circle{height:24px;width:24px;border-radius:100%;background-color:#fff;position:fixed;top:0;left:0;pointer-events:none;z-index:99999999;transform-origin:center center;transition:width .2s}.circle-hidden{display:none}.circle-thin{height:20px;width:2px}@media screen and (max-width:750px){.circle{display:none}}
