@@ -1,4 +1,33 @@
-import{j as e,r as l}from"./radix-CFyMAmnS.js";import{c as j,a as v,L as g,T as N}from"./index-DY3dzlHZ.js";import{m as p,L as k,d as I,a}from"./motion-mDcWmv0I.js";import{G as b,I as T,S}from"./icons-DL-dbEzw.js";import{u as F}from"./i18n-eAXfqVEm.js";const z="/My-Portfolio/assets/hero-bg-cX0l4YhF.webp",P="/My-Portfolio/assets/heroSection-DVxjq-e9.webp";function u({href:r,icon:o,label:n,platform:t,delay:i=0}){return e.jsxs(e.Fragment,{children:[e.jsx(p.a,{href:r,target:"_blank",rel:"noopener noreferrer","aria-label":n,initial:{opacity:0,y:-15},animate:{opacity:1,y:0},transition:{duration:.4,delay:i},whileTap:{scale:.9},className:j("social-icon",t,"flex h-12 w-12 items-center justify-center rounded-full","border-2 border-transparent bg-[#0f0f0f] text-white","transition-all duration-300 relative overflow-hidden"),children:o}),e.jsx("style",{children:`
+import { j as e, r as l } from './radix-CFyMAmnS.js';
+import { c as j, a as v, L as g, T as N } from './index-DY3dzlHZ.js';
+import { m as p, L as k, d as I, a } from './motion-mDcWmv0I.js';
+import { G as b, I as T, S } from './icons-DL-dbEzw.js';
+import { u as F } from './i18n-eAXfqVEm.js';
+const z = '/My-Portfolio/assets/hero-bg-cX0l4YhF.webp',
+	P = '/My-Portfolio/assets/heroSection-DVxjq-e9.webp';
+function u({ href: r, icon: o, label: n, platform: t, delay: i = 0 }) {
+	return e.jsxs(e.Fragment, {
+		children: [
+			e.jsx(p.a, {
+				href: r,
+				target: '_blank',
+				rel: 'noopener noreferrer',
+				'aria-label': n,
+				initial: { opacity: 0, y: -15 },
+				animate: { opacity: 1, y: 0 },
+				transition: { duration: 0.4, delay: i },
+				whileTap: { scale: 0.9 },
+				className: j(
+					'social-icon',
+					t,
+					'flex h-12 w-12 items-center justify-center rounded-full',
+					'border-2 border-transparent bg-[#0f0f0f] text-white',
+					'transition-all duration-300 relative overflow-hidden',
+				),
+				children: o,
+			}),
+			e.jsx('style', {
+				children: `
         .social-icon {
           background:
             linear-gradient(#0f0f0f, #0f0f0f) padding-box,
@@ -72,8 +101,120 @@ import{j as e,r as l}from"./radix-CFyMAmnS.js";import{c as j,a as v,L as g,T as 
           0%,100% { box-shadow: 0 0 15px #dd2a7b; }
           50% { box-shadow: 0 0 35px #dd2a7b; }
         }
-      `})]})}function D({phrases:r,className:o,speed:n=100,deleteSpeed:t=50,pauseTime:i=2e3}){const[c,h]=l.useState(0),[s,f]=l.useState(""),[d,m]=l.useState(!1);return l.useEffect(()=>{const x=r[c],y=setTimeout(()=>{d?s.length>0?f(s.slice(0,-1)):(m(!1),h(w=>(w+1)%r.length)):s.length<x.length?f(x.slice(0,s.length+1)):setTimeout(()=>m(!0),i)},d?t:n);return()=>clearTimeout(y)},[s,d,c,r,n,t,i]),e.jsxs("span",{className:v("inline-block",o),children:[s,e.jsx(p.span,{animate:{opacity:[1,0,1]},transition:{duration:.8,repeat:1/0},className:"ml-1 inline-block w-[3px] h-[1em] bg-primary align-middle"})]})}const H=[{href:"https://github.com",icon:e.jsx(b,{className:"h-6 w-6"}),label:"GitHub",platform:"github"},{href:"https://instagram.com",icon:e.jsx(T,{className:"h-6 w-6"}),label:"Instagram",platform:"instagram"},{href:"https://t.me",icon:e.jsx(S,{className:"h-6 w-6"}),label:"Telegram",platform:"telegram"}];function B(){const{t:r}=F(),o=[r("hero.typewriter.name"),r("hero.typewriter.frontend"),r("hero.typewriter.uiux"),r("hero.typewriter.web3")],n=r("hero.greeting");return e.jsxs(k,{features:I,children:[" ",e.jsxs("section",{className:"relative min-h-screen flex flex-col overflow-hidden bg-background",children:[e.jsx("div",{className:"absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30",style:{backgroundImage:`url(${z})`}}),e.jsx("div",{className:" inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background"}),e.jsx("div",{className:"absolute inset-0 opacity-10",children:e.jsx("div",{className:"absolute inset-0",style:{backgroundImage:`linear-gradient(hsl(var(--primary) / 0.1) 1px, transparent 1px),
-                              linear-gradient(90deg, hsl(var(--primary) / 0.1) 1px, transparent 1px)`,backgroundSize:"50px 50px"}})}),e.jsxs(a.header,{initial:{opacity:0,y:-50},animate:{opacity:1,y:0},transition:{duration:.6,delay:1.5},className:"relative z-10 flex items-center justify-between p-4 md:p-8",children:[e.jsx(u,{href:"https://github.com",icon:e.jsx(b,{className:"h-6 w-6"}),label:"GitHub",platform:"github",delay:1.6}),e.jsxs("div",{className:"flex items-center gap-3",children:[e.jsx("div",{className:"flex gap-2",children:H.slice(1).map((t,i)=>e.jsx(u,{...t,delay:1.7+i*.1},t.label))}),e.jsx(g,{className:"hidden md:flex items-center"}),e.jsx(g,{className:"md:hidden flex items-center"}),e.jsx(N,{})]})]}),e.jsx("div",{className:"relative z-10 flex-1   mt-16",children:e.jsx("div",{className:"w-full max-w-[89rem] mx-auto",children:e.jsxs("div",{className:`\r
+      `,
+			}),
+		],
+	});
+}
+function D({ phrases: r, className: o, speed: n = 100, deleteSpeed: t = 50, pauseTime: i = 2e3 }) {
+	const [c, h] = l.useState(0),
+		[s, f] = l.useState(''),
+		[d, m] = l.useState(!1);
+	return (
+		l.useEffect(() => {
+			const x = r[c],
+				y = setTimeout(
+					() => {
+						d
+							? s.length > 0
+								? f(s.slice(0, -1))
+								: (m(!1), h(w => (w + 1) % r.length))
+							: s.length < x.length
+								? f(x.slice(0, s.length + 1))
+								: setTimeout(() => m(!0), i);
+					},
+					d ? t : n,
+				);
+			return () => clearTimeout(y);
+		}, [s, d, c, r, n, t, i]),
+		e.jsxs('span', {
+			className: v('inline-block', o),
+			children: [
+				s,
+				e.jsx(p.span, {
+					animate: { opacity: [1, 0, 1] },
+					transition: { duration: 0.8, repeat: 1 / 0 },
+					className: 'ml-1 inline-block w-[3px] h-[1em] bg-primary align-middle',
+				}),
+			],
+		})
+	);
+}
+const H = [
+	{ href: 'https://github.com', icon: e.jsx(b, { className: 'h-6 w-6' }), label: 'GitHub', platform: 'github' },
+	{
+		href: 'https://instagram.com',
+		icon: e.jsx(T, { className: 'h-6 w-6' }),
+		label: 'Instagram',
+		platform: 'instagram',
+	},
+	{ href: 'https://t.me', icon: e.jsx(S, { className: 'h-6 w-6' }), label: 'Telegram', platform: 'telegram' },
+];
+function B() {
+	const { t: r } = F(),
+		o = [
+			r('hero.typewriter.name'),
+			r('hero.typewriter.frontend'),
+			r('hero.typewriter.uiux'),
+			r('hero.typewriter.web3'),
+		],
+		n = r('hero.greeting');
+	return e.jsxs(k, {
+		features: I,
+		children: [
+			' ',
+			e.jsxs('section', {
+				className: 'relative min-h-screen flex flex-col overflow-hidden bg-background',
+				children: [
+					e.jsx('div', {
+						className: 'absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30',
+						style: { backgroundImage: `url(${z})` },
+					}),
+					e.jsx('div', { className: ' inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background' }),
+					e.jsx('div', {
+						className: 'absolute inset-0 opacity-10',
+						children: e.jsx('div', {
+							className: 'absolute inset-0',
+							style: {
+								backgroundImage: `linear-gradient(hsl(var(--primary) / 0.1) 1px, transparent 1px),
+                              linear-gradient(90deg, hsl(var(--primary) / 0.1) 1px, transparent 1px)`,
+								backgroundSize: '50px 50px',
+							},
+						}),
+					}),
+					e.jsxs(a.header, {
+						initial: { opacity: 0, y: -50 },
+						animate: { opacity: 1, y: 0 },
+						transition: { duration: 0.6, delay: 1.5 },
+						className: 'relative z-10 flex items-center justify-between p-4 md:p-8',
+						children: [
+							e.jsx(u, {
+								href: 'https://github.com',
+								icon: e.jsx(b, { className: 'h-6 w-6' }),
+								label: 'GitHub',
+								platform: 'github',
+								delay: 1.6,
+							}),
+							e.jsxs('div', {
+								className: 'flex items-center gap-3',
+								children: [
+									e.jsx('div', {
+										className: 'flex gap-2',
+										children: H.slice(1).map((t, i) => e.jsx(u, { ...t, delay: 1.7 + i * 0.1 }, t.label)),
+									}),
+									e.jsx(g, { className: 'hidden md:flex items-center' }),
+									e.jsx(g, { className: 'md:hidden flex items-center' }),
+									e.jsx(N, {}),
+								],
+							}),
+						],
+					}),
+					e.jsx('div', {
+						className: 'relative z-10 flex-1   mt-16',
+						children: e.jsx('div', {
+							className: 'w-full max-w-[89rem] mx-auto',
+							children: e.jsxs('div', {
+								className: `\r
               flex\r
 							justify-between\r
 \r
@@ -83,11 +224,34 @@ import{j as e,r as l}from"./radix-CFyMAmnS.js";import{c as j,a as v,L as g,T as 
               gap-8 lg:gap-12\r
               items-center\r
               w-full\r
-            `,children:[e.jsx(a.div,{initial:{opacity:0,scale:.85},animate:{opacity:1,scale:1},transition:{duration:.8,delay:.4},className:`\r
+            `,
+								children: [
+									e.jsx(a.div, {
+										initial: { opacity: 0, scale: 0.85 },
+										animate: { opacity: 1, scale: 1 },
+										transition: { duration: 0.8, delay: 0.4 },
+										className: `\r
               flex justify-center\r
               order-first lg:order-last\r
               lg:justify-self-end\r
-            `,children:e.jsxs("div",{className:"relative ",children:[e.jsx(a.div,{animate:{rotate:360},transition:{duration:25,repeat:1/0,ease:"linear"},className:" -inset-6 rounded-full border-2 border-dashed border-primary/20"}),e.jsx(a.div,{animate:{rotate:-360},transition:{duration:20,repeat:1/0,ease:"linear"},className:" -inset-3 rounded-full border border-primary/30"}),e.jsx("div",{className:"absolute inset-0 rounded-full bg-primary/20 blur-3xl"}),e.jsx(a.div,{transition:{duration:4,repeat:1/0,ease:"easeInOut"},className:`\r
+            `,
+										children: e.jsxs('div', {
+											className: 'relative ',
+											children: [
+												e.jsx(a.div, {
+													animate: { rotate: 360 },
+													transition: { duration: 25, repeat: 1 / 0, ease: 'linear' },
+													className: ' -inset-6 rounded-full border-2 border-dashed border-primary/20',
+												}),
+												e.jsx(a.div, {
+													animate: { rotate: -360 },
+													transition: { duration: 20, repeat: 1 / 0, ease: 'linear' },
+													className: ' -inset-3 rounded-full border border-primary/30',
+												}),
+												e.jsx('div', { className: 'absolute inset-0 rounded-full bg-primary/20 blur-3xl' }),
+												e.jsx(a.div, {
+													transition: { duration: 4, repeat: 1 / 0, ease: 'easeInOut' },
+													className: `\r
               relative\r
               flex items-center justify-center\r
               w-[300px] h-[300px]\r
@@ -99,8 +263,108 @@ import{j as e,r as l}from"./radix-CFyMAmnS.js";import{c as j,a as v,L as g,T as 
               border border-primary/20\r
               shadow-2xl shadow-primary/20\r
               overflow-hidden\r
-            `,children:e.jsx("img",{src:P,alt:"Developer workspace",className:"w-[100%] h-[100%] object-cover rounded-2xl shadow-xl"})}),e.jsx(a.div,{animate:{y:[-10,10,-10],x:[-5,5,-5]},transition:{duration:3,repeat:1/0,ease:"easeInOut"},className:"absolute -top-4 -right-4 w-4 h-4 rounded-full bg-primary/60"}),e.jsx(a.div,{animate:{y:[10,-10,10],x:[5,-5,5]},transition:{duration:4,repeat:1/0,ease:"easeInOut",delay:.5},className:"absolute -bottom-2 -left-2 w-3 h-3 rounded-full bg-[hsl(var(--glow-pink))]/60"})]})}),e.jsxs(a.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{duration:1},className:`\r
+            `,
+													children: e.jsx('img', {
+														src: P,
+														alt: 'Developer workspace',
+														className: 'w-[100%] h-[100%] object-cover rounded-2xl shadow-xl',
+													}),
+												}),
+												e.jsx(a.div, {
+													animate: { y: [-10, 10, -10], x: [-5, 5, -5] },
+													transition: { duration: 3, repeat: 1 / 0, ease: 'easeInOut' },
+													className: 'absolute -top-4 -right-4 w-4 h-4 rounded-full bg-primary/60',
+												}),
+												e.jsx(a.div, {
+													animate: { y: [10, -10, 10], x: [5, -5, 5] },
+													transition: { duration: 4, repeat: 1 / 0, ease: 'easeInOut', delay: 0.5 },
+													className: 'absolute -bottom-2 -left-2 w-3 h-3 rounded-full bg-[hsl(var(--glow-pink))]/60',
+												}),
+											],
+										}),
+									}),
+									e.jsxs(a.div, {
+										initial: { opacity: 0, y: 20 },
+										animate: { opacity: 1, y: 0 },
+										transition: { duration: 1 },
+										className: `\r
           order-last lg:order-first\r
           lg:justify-self-start\r
           text-center lg:text-left\r
-        `,children:[e.jsx(a.h1,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.8,delay:.3},className:"font-elegant text-4xl md:text-5xl lg:text-6xl mb-4 text-glow",children:n.split("").map((t,i)=>e.jsx(a.span,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.1,delay:.6+i*.04},children:t},i))}),e.jsx("div",{className:"mb-8 overflow-hidden",children:e.jsx("h2",{className:"typewriter-text text-6xl  text-foreground text-reflect text-glow-lg md:text-7xl h-[2em] font-bold uppercase tracking-wider text-glow-lg",children:e.jsx(D,{phrases:o,speed:100})})}),e.jsx(a.div,{initial:{opacity:0,y:15},animate:{opacity:1,y:0},transition:{duration:.5,delay:2},className:"flex justify-center lg:justify-start",children:e.jsx(a.a,{href:"#contact",whileHover:{scale:1.05},whileTap:{scale:.95},className:"px-8 py-3 rounded-full border-2 border-primary text-primary font-semibold",children:r("hero.contactBtn")})})]})]})})}),e.jsx(a.div,{initial:{opacity:0},animate:{opacity:1},transition:{delay:2.5},className:"relative z-10 flex justify-center pb-8",children:e.jsxs(a.div,{animate:{y:[0,10,0]},transition:{duration:1.5,repeat:1/0},className:"flex flex-col items-center gap-2 text-muted-foreground",children:[e.jsx("span",{className:"text-sm",children:r("hero.scrollDown")}),e.jsx("div",{className:"w-6 h-10 rounded-full border-2 border-muted-foreground flex justify-center pt-2",children:e.jsx(a.div,{animate:{y:[0,12,0],opacity:[1,0,1]},transition:{duration:1.5,repeat:1/0},className:"w-1.5 h-3 rounded-full bg-primary"})})]})})]})]})}export{B as HeroSection,B as default};
+        `,
+										children: [
+											e.jsx(a.h1, {
+												initial: { opacity: 0, y: 30 },
+												animate: { opacity: 1, y: 0 },
+												transition: { duration: 0.8, delay: 0.3 },
+												className: 'font-elegant text-4xl md:text-5xl lg:text-6xl mb-4 text-glow',
+												children: n
+													.split('')
+													.map((t, i) =>
+														e.jsx(
+															a.span,
+															{
+																initial: { opacity: 0 },
+																animate: { opacity: 1 },
+																transition: { duration: 0.1, delay: 0.6 + i * 0.04 },
+																children: t,
+															},
+															i,
+														),
+													),
+											}),
+											e.jsx('div', {
+												className: 'mb-8 overflow-hidden',
+												children: e.jsx('h2', {
+													className:
+														'typewriter-text text-6xl  text-foreground text-reflect text-glow-lg md:text-7xl h-[2em] font-bold uppercase tracking-wider text-glow-lg',
+													children: e.jsx(D, { phrases: o, speed: 100 }),
+												}),
+											}),
+											e.jsx(a.div, {
+												initial: { opacity: 0, y: 15 },
+												animate: { opacity: 1, y: 0 },
+												transition: { duration: 0.5, delay: 2 },
+												className: 'flex justify-center lg:justify-start',
+												children: e.jsx(a.a, {
+													href: '#contact',
+													whileHover: { scale: 1.05 },
+													whileTap: { scale: 0.95 },
+													className: 'px-8 py-3 rounded-full border-2 border-primary text-primary font-semibold',
+													children: r('hero.contactBtn'),
+												}),
+											}),
+										],
+									}),
+								],
+							}),
+						}),
+					}),
+					e.jsx(a.div, {
+						initial: { opacity: 0 },
+						animate: { opacity: 1 },
+						transition: { delay: 2.5 },
+						className: 'relative z-10 flex justify-center pb-8',
+						children: e.jsxs(a.div, {
+							animate: { y: [0, 10, 0] },
+							transition: { duration: 1.5, repeat: 1 / 0 },
+							className: 'flex flex-col items-center gap-2 text-muted-foreground',
+							children: [
+								e.jsx('span', { className: 'text-sm', children: r('hero.scrollDown') }),
+								e.jsx('div', {
+									className: 'w-6 h-10 rounded-full border-2 border-muted-foreground flex justify-center pt-2',
+									children: e.jsx(a.div, {
+										animate: { y: [0, 12, 0], opacity: [1, 0, 1] },
+										transition: { duration: 1.5, repeat: 1 / 0 },
+										className: 'w-1.5 h-3 rounded-full bg-primary',
+									}),
+								}),
+							],
+						}),
+					}),
+				],
+			}),
+		],
+	});
+}
+export { B as HeroSection, B as default };
