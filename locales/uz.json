@@ -79,7 +79,7 @@
   "form.success": "Xabar muvaffaqiyatli yuborildi 🚀",
   "form.successDesc": "Tez orada siz bilan bog'lanaman",
   "form.errorSend": "Xabar yuborilmadi ❌",
-  "form.errorSendDesc": "Telegram botga /start yozilganini tekshiring",
+  "form.errorSendDesc": "Iltimos, birozdan keyin qayta urinib ko'ring",
   "form.errorValidation": "Ma'lumotlaringizni to'liq kiriting ❗",
   "form.errorValidationDesc": "Iltimos barcha maydonlarni to'ldiring",
   "form.errorPhone": "Telefon raqam noto'g'ri 📱",

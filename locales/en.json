@@ -79,7 +79,7 @@
   "form.success": "Message sent successfully 🚀",
   "form.successDesc": "I will contact you soon",
   "form.errorSend": "Message not sent ❌",
-  "form.errorSendDesc": "Check that /start is written to the Telegram bot",
+  "form.errorSendDesc": "Please try again in a moment",
   "form.errorValidation": "Please fill in all fields ❗",
   "form.errorValidationDesc": "Please fill in all fields",
   "form.errorPhone": "Invalid phone number 📱",
