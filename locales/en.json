@@ -80,6 +80,7 @@
   "form.successDesc": "I will contact you soon",
   "form.errorSend": "Message not sent ❌",
   "form.errorSendDesc": "Please try again in a moment",
+  "form.errorSendDescTelegramStart": "Send /start to the Telegram bot, then try again.",
   "form.errorValidation": "Please fill in all fields ❗",
   "form.errorValidationDesc": "Please fill in all fields",
   "form.errorPhone": "Invalid phone number 📱",
